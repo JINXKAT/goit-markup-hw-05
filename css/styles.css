@@ -753,6 +753,10 @@ img {
     fill: #4d5ae5;
   }
 
+  .modal-form-wrapper {
+    margin-bottom: 16px;
+  }
+
   .modal-form-input-textarea {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -763,7 +767,7 @@ img {
     padding-left: 38px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #2e2f42;
+    color: rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
     background-color: transparent;
     outline: transparent;
@@ -854,6 +858,5 @@ img {
   .modal-form-btn:hover,
   .modal-form-btn:focus {
     background-color: #404bbf;
-    border: none;
   }
 /* ================ /MODAL STYLES ================ */
